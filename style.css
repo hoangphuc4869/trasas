@@ -50,7 +50,7 @@ ul {
 
 .trasas-wrap {
   position: relative;
-  background: grey;
+  background: #fff;
 }
 
 .wel-content {
@@ -79,7 +79,8 @@ ul {
   background-color: #fff;
 }
 .our {
-  background: rgba(42, 83, 121, 0.7);
+  background: rgba(42, 83, 121, 0.9);
+
   padding: 20px;
 }
 .ours-things {
@@ -135,7 +136,8 @@ ul {
 }
 
 .mem {
-  background: rgba(42, 83, 121, 0.7);
+  background: rgba(42, 83, 121, 0.9);
+
   padding: 30px;
   margin-top: 30px;
 }
@@ -151,7 +153,8 @@ ul {
   padding-bottom: 100px;
 }
 .thing {
-  background: rgba(42, 83, 121, 0.7);
+  background: rgba(42, 83, 121, 0.9);
+
   padding: 25px 35px;
 }
 .thing img {
@@ -181,4 +184,224 @@ ul {
 }
 .thing .read-more-btn a {
   background-color: #fec126;
+}
+.supplyChains ol {
+  list-style-type: decimal;
+}
+.supplyChains ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.grid-contact {
+  position: relative;
+  margin-top: -400px;
+  order: 2;
+}
+.supplyChains {
+  background: rgba(42, 83, 121, 0.9);
+  color: #fff;
+  padding: 30px;
+  line-height: 2;
+}
+.supplyChains p {
+  font-size: 30px;
+}
+.contact-info p {
+  color: #fec126;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.contact p {
+  color: #fec126;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.contact-form p {
+  color: #fec126;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.contact-thing,
+.contact-our {
+  margin-bottom: 24px;
+}
+.contact-thing .t-title {
+  font-size: 18px;
+}
+
+.contact-thing .t-title {
+  margin-left: 95px;
+  margin-bottom: 50px;
+}
+.contact-form #name,
+#mail,
+#subject,
+#mess {
+  width: 50%;
+}
+.submit-btn {
+  width: fit-content;
+  background: #fec126;
+  border: none;
+}
+.contact .address {
+  font-style: italic;
+}
+.address i,
+.phone i,
+.fax i {
+  margin-right: 10px;
+}
+
+.photo-gallery {
+  background: rgba(42, 83, 121, 0.9);
+  color: #fff;
+  padding: 30px;
+}
+.r-m-gallery {
+  position: relative;
+  right: 50px;
+  margin-top: 30px;
+}
+.r-m-gallery a {
+  background-color: #fec126;
+}
+.gallery-img {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+.gallery-img img {
+  padding: 0;
+}
+.gallery-item {
+  margin-bottom: 50px;
+}
+.gallery-name {
+  color: #fec126;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 12px;
+}
+
+@media (max-width: 1200px) {
+  .main-content {
+    margin-top: -200px;
+  }
+  .r-m-gallery {
+    left: 0;
+    right: unset;
+    text-align: unset;
+  }
+  .contact-our .our-title p:first-child {
+    font-size: 25px;
+  }
+  .grid-contact {
+    margin-top: 20px;
+  }
+  .contact-form #name,
+  #mail,
+  #subject,
+  #mess {
+    width: 100%;
+  }
+  .contact-thing .t-title {
+    font-size: 14px;
+    margin-left: 75px;
+  }
+}
+@media (max-width: 992px) {
+  .main-content {
+    margin-top: 0;
+  }
+  .gal-des {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  .photo-gallery {
+    padding: 20px 0;
+  }
+  .wel-content {
+    padding: 9px 20px;
+  }
+  .wel-content > p:first-child {
+    font-size: 40px;
+  }
+
+  .wel-content span {
+    font-size: 25px;
+  }
+  .ours-things .col-lg-3:first-child {
+    padding-left: 12px;
+  }
+  .our {
+    margin-bottom: 12px;
+  }
+  .ours-things .col-lg-3:last-child {
+    padding-right: 12px;
+  }
+  .mem-item {
+    margin-bottom: 12px;
+  }
+  .mem {
+    width: 100%;
+  }
+  .thing {
+    margin-bottom: 24px;
+  }
+  .thing {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 0;
+  }
+  .wel-content {
+    padding: 9px 20px;
+  }
+  .wel-content > p:first-child {
+    font-size: 40px;
+  }
+
+  .wel-content span {
+    font-size: 25px;
+  }
+  .ours-things .col-lg-3:first-child {
+    padding-left: 12px;
+  }
+  .our {
+    margin-bottom: 12px;
+  }
+  .ours-things .col-lg-3:last-child {
+    padding-right: 12px;
+  }
+  .mem-item {
+    margin-bottom: 12px;
+  }
+  .mem {
+    width: 100%;
+  }
+  .thing {
+    margin-bottom: 24px;
+  }
+  .thing {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .thing {
+    width: 100%;
+  }
+  ol {
+    padding-left: 0;
+  }
+  .supplyChains p {
+    font-size: 20px;
+  }
 }
